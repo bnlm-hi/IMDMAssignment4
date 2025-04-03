@@ -1,8 +1,7 @@
 fileFormatVersion: 2
-guid: 476cc7d7cd9874016adc216baab94a0a
-timeCreated: 1484146680
-licenseType: Store
+guid: 9952683d217c0ac4c8cb8302c543d457
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
   defaultReferences: []
   executionOrder: 0
@@ -15,5 +14,5 @@ AssetOrigin:
   productId: 242552
   packageName: Campfires & Torches Models and FX!
   packageVersion: 1.0
-  assetPath: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  assetPath: Assets/Piloto Studio/Readme/Scripts/Editor/ReadmeBehaviourEditor.cs
   uploadId: 608500
