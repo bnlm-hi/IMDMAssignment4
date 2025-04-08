@@ -141,7 +141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 22e991efa95d845e58b9cd8ea45efa28, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 22e991efa95d845e58b9cd8ea45efa28, type: 3}
       propertyPath: m_LocalPosition.y
@@ -510,6 +510,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 95c649cc5b09248a1bc834c3a1c8e895, type: 2}
+    - target: {fileID: -3133498875991405556, guid: dfee289f774fe4ab9a43e62154f10908, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: -2948929029091410679, guid: dfee289f774fe4ab9a43e62154f10908, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1005,10 +1009,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 1
+  m_Radius: 30
+  m_Height: 200
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 100, z: 0}
 --- !u!1 &1219816261
 GameObject:
   m_ObjectHideFlags: 0
