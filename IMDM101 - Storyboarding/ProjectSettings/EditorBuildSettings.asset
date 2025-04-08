@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Tutorial.unity
+    path: Assets/Scenes/1 - Tutorial.unity
     guid: 417a296bbaade49f5aaacd7032b1898e
   - enabled: 1
-    path: Assets/Scenes/DesertPortal.unity
+    path: Assets/Scenes/2 - Portal.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
     path: Assets/Scenes/Temple.unity
