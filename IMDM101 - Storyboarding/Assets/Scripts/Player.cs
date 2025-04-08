@@ -53,6 +53,7 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             Jump();
+            Debug.Log("jup");
         }
 
         // Checking when we're on the ground and keeping track of our ground check delay
