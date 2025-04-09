@@ -7,7 +7,7 @@ public class Hover : MonoBehaviour
     float speed = 4f;
     //adjust this to change how high it goes
     [SerializeField]
-    float height = 0.5f;
+    float width = 1.5f;
 
     Vector3 pos;
 
@@ -20,8 +20,8 @@ public class Hover : MonoBehaviour
     {
 
         //calculate what the new Y position will be
-        float newY = Mathf.Sin(Time.time * speed) * height + pos.y;
+        float newX = Mathf.Sin(Time.time * speed) * width + pos.x;
         //set the object’s Y to the new calculated Y
-        transform.position = new Vector3(transform.position.x, newY, transform.position.z);
+        transform.position = new Vector3(newX, transform.position.y, transform.position.z);
     }
 }
